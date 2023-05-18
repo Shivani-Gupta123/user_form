@@ -20,7 +20,7 @@ const UserForm = () => {
   return (
     <>
     <Typography gutterBottom variant="h3" align="center">
-        Contact Form
+        Contact Form 
     </Typography>
     <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
       <form onSubmit={handleSubmit}>
