@@ -29,6 +29,7 @@ const UserForm = () => {
             <TextField
               label="Name"
               value={name}
+              type="name"
               variant="outlined" 
               fullWidth
               onChange={(event) => setName(event.target.value)}
@@ -39,6 +40,7 @@ const UserForm = () => {
            <TextField
              label="Phone Number"
              value={phoneNumber}
+             type="number"
              variant="outlined" 
              fullWidth
              onChange={(event) => setPhoneNumber(event.target.value)}
